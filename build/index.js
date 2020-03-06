@@ -22,6 +22,10 @@ var init = /*#__PURE__*/function () {
       method: 'GET',
       path: '/wallet',
       handler: (request, h) => (0, _routes.wallet)()
+    }, {
+      method: 'GET',
+      path: '/contest',
+      handler: (request, h) => (0, _routes.contests)()
     }];
     server.route(routes);
     yield server.start();

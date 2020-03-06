@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.wallet = exports.home = void 0;
+exports.contests = exports.wallet = exports.home = void 0;
 
 var _data = _interopRequireDefault(require("./data"));
 
@@ -29,3 +29,11 @@ var wallet = () => {
 };
 
 exports.wallet = wallet;
+
+var contests = () => {
+  return {
+    contests: _data.default.getRandomList("contests")
+  };
+};
+
+exports.contests = contests;

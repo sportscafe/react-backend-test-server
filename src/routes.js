@@ -23,3 +23,9 @@ export const wallet = () => {
 
 };
 
+export const contests = () => {
+
+    return {
+        contests : data.getRandomList("contests")        
+    }
+};
