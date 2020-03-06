@@ -3,12 +3,12 @@
     {
       "img_url": "https://cdn-images.spcafe.in/img/es3/articles/Banners_App/DIWALI_BANNER.jpg",
       "redirect": true,
-      "route": "/contests"
+      "route": "/contest"
     },
     {
       "img_url": "https://cdn-images.spcafe.in/img/es3/articles/Twitter1.jpg",
       "redirect": true,
-      "route": "/transactions"
+      "route": "/wallet"
     },
     {
       "img_url": "https://cdn-images.spcafe.in/img/sportscafeimages/Game/Banner_Ads/feature/Bingo_banner.png",
