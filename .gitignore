@@ -99,7 +99,6 @@ bower_components
 .jenkins
 
 # build folder
-build
 pm2OptionsTemp.json
 
 #Deployment specific
