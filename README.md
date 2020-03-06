@@ -57,7 +57,10 @@ React.js(create-react-app is a good start too)
 * All the tiles are to be grouped together based on this type
 * Each row can fit a maximum of 3 tiles (all of same type)
 
-Along with code submission, please list the steps(including the packages installed) to be followed in order to successfully run and build the front-end and back-end code-bases.
+### IMPORTANT
+1. Submit the github link to the repo consisting of your front-end code with the steps to be followed in the README.md file
+2. Only github links are considered as valid submissions
+3. Along with the submission, please list the steps(including the packages installed) to be followed in order to successfully run and build the project
 
 ### Bonus points for:
 * using functional components + React Hooks
