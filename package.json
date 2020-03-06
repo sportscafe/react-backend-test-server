@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d ./build ./index.js && babel -d ./build/src ./src && cp ./src/data/responses.json ./build/src/data/responses.json",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,15 @@
   },
   "homepage": "https://github.com/sportscafe/react-backend-test-server#readme",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.8.3",
     "@hapi/hapi": "^19.1.1",
-    "app-module-path": "^2.2.0"
+    "app-module-path": "^2.2.0",
+    "flat": "^5.0.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7"
   }
 }

@@ -1,5 +1,7 @@
 'use strict';
 
+import {home} from './src/routes';
+
 const Hapi = require('@hapi/hapi');
 
 const init = async () => {
@@ -14,32 +16,7 @@ const init = async () => {
         path: '/home',
         handler: (request, h) => {
 
-            return {
-                banners : [
-                    {
-                        img_url     : 'http://somelink.jpg',
-                        redirect    : true,
-                        route       : '/contests' 
-                    },
-                    {
-                        img_url     : 'http://somelink.jpg',
-                        redirect    : true,
-                        route       : '/transactions' 
-                    },
-                    {
-                        img_url     : 'http://somelink.jpg',
-                        redirect    : false,
-                        route       : null
-                    },
-                ],
-
-                challenges : [
-                    {
-                        
-                    }
-
-                ]
-            };
+            return home();
         }
     });
 

@@ -1,45 +1,13 @@
-'use strict';
+import data from './data';
 
-const Hapi = require('@hapi/hapi');
+export const home = () => {
+    
+    return {
 
-const init = async () => {
+        user_name   : data.getRandom("user_names"),
+        banners     : data.get("banners"),
+        sports      : data.get("sports"),
+        challenges  : data.get("challenges")
 
-    const server = Hapi.server({
-        port: 3000,
-        host: 'localhost'
-    });
-
-    server.route({
-        method: 'GET',
-        path: '/home',
-        handler: (request, h) => {
-
-            return {
-                banners : [
-                    {
-                        img_url     : 'http://somelink.jpg',
-                        redirect    : true,
-                        route       : '/contests' 
-                    },
-                    {
-                        img_url     : 'http://somelink.jpg',
-                        redirect    : true,
-                        route       : '/transactions' 
-                    },
-                    {
-                        img_url     : 'http://somelink.jpg',
-                        redirect    : false,
-                        route       : null
-                    },
-                ]
-            };
-        }
-    });
-
-    await server.start();
-    console.log('Server running on %s', server.info.uri);
-
-    return server;
-};
-
-init();
+    }
+}
