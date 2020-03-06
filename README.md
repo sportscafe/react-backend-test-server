@@ -1,7 +1,7 @@
 # NOSTRA HIRING ASSIGNMENT:
 
 ## TECH/ TOOLS:
-React.js(create-react-app is a good start too)
+* React.js(create-react-app is a good start too)
 * Redux
 * any CSS pre-processor
 * a router module
