@@ -1,6 +1,6 @@
 'use strict';
 
-import {home} from './src/routes';
+import {home, wallet} from './src/routes';
 
 const Hapi = require('@hapi/hapi');
 
@@ -11,14 +11,22 @@ const init = async () => {
         host: 'localhost'
     });
 
-    server.route({
-        method: 'GET',
-        path: '/home',
-        handler: (request, h) => {
+    const routes = [
+        {
+            method : 'GET',
+            path : '/home',
+            handler : (request, h) => home()
+        },
+        {
+            method : 'GET',
+            path : '/wallet',
+            handler : (request, h) => wallet()
+        },
 
-            return home();
-        }
-    });
+
+    ];
+    
+    server.route(routes);
 
     await server.start();
     console.log('Server running on %s', server.info.uri);

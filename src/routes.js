@@ -10,4 +10,16 @@ export const home = () => {
         challenges  : data.get("challenges")
 
     }
-}
+};
+
+export const wallet = () => {
+
+    return {
+
+        wallet_balance  : data.getRandom("wallet_balances"),
+        transactions    : data.getRandomList("transactions"),
+        withdrawals     : data.getRandomList("withdrawals")
+    }
+
+};
+
