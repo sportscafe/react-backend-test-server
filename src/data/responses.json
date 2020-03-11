@@ -126,6 +126,7 @@
     ],
     "challenges": [
         {
+            "sports_id" : 1,
             "prize_money": 5000,
             "start_time": "2020-03-22T12:30:00.000Z",
             "match_parties": [
@@ -147,6 +148,7 @@
             "desc": "Test Day 5",
             "game_mode": "prediction"
         }, {
+            "sports_id" : 1,
             "prize_money": 45000,
             "match_parties": [
                 {
@@ -188,6 +190,7 @@
             "game_mode": "prediction",
             "start_time": "2020-03-17T15:30:00.000Z"
         }, {
+            "sports_id" : 3,
             "prize_money": 4500,
             "match_parties": [
                 {
@@ -229,6 +232,7 @@
             "game_mode": "prediction",
             "start_time": "2020-03-15T12:30:00.000Z"
         }, {
+            "sports_id" : 4,
             "prize_money": 99000,
             "match_parties": [
                 {
