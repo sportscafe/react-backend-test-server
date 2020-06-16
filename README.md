@@ -5,13 +5,10 @@
 * Redux
 * any CSS pre-processor
 
-### Please check the 'nostra-assignment' folder in this repo for design specifications, assets and visual understanding of the task
+### Please check the 'nostra-assignment' folder in this repo for design specifications, assets and visual understanding of the task (https://github.com/sportscafe/react-backend-test-server/tree/master/nostra-assignment)
 
-1. The assignment consists of designing 2 responsive screens - a home screen and a wallet transaction screen
-2. The data for these screens can be fetched from the following API endpoints:
-  * http://localhost:3000/home
-  * http://localhost:3000/wallet
-   respectively
+1. The assignment consists of designing a responsive Home screen
+2. The data for this screen can be fetched from the following API endpoints: http://localhost:3000/home
 3. To run the back-end server
   * clone this repo
   * npm install
@@ -36,17 +33,6 @@
     * a timer(bottom-right) which counts down to the time left for the match to start
   * The information regarding the team names and their flags can be found against the 'match_parties' key inside the challenges array of the API response
   * The data displayed in this section depends on the sports tab selected (e.g, show only football challenges when 'Football' tab is clicked, show all challenges when 'ALL' is clicked)
-
-### WALLET TRANSACTION SCREEN:
-* This screen consists of 3 sections
-* The top section is a sticky header with a title and a back arrow, on click of which the user should navigate back to the Home screen
-* The second section is a card which displays the total wallet balance of the user along with the total no. of withdrawals in progress (check for the 'status' key in the response)
-* The final section consists of tiles which can be of 3 types
-  * add_to_wallet
-  * remove_from_wallet
-  * join_contest
-* All the tiles are to be grouped together based on this type
-* Each row can fit a maximum of 3 tiles (all of same type)
 
 ### IMPORTANT
 1. Submit the github link to the repo consisting of your front-end code with the steps to be followed in the README.md file
