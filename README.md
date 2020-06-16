@@ -5,7 +5,7 @@
 * Redux
 * any CSS pre-processor
 
-### Please check the 'nostra-assignment' folder in this repo for design specifications, assets and visual understanding of the task
+### Please check the 'nostra-assignment' folder in this repo for design specifications, assets and visual understanding of the task (https://github.com/sportscafe/react-backend-test-server/tree/master/nostra-assignment)
 
 1. The assignment consists of designing a responsive Home screen
 2. The data for this screen can be fetched from the following API endpoints: http://localhost:3000/home
