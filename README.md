@@ -29,11 +29,11 @@
 * Just below the banner section is a Tab-bar section which consits of multiple sports tabs, scrollable to the right. (check the 'sports' key in the response for the list of tab items )
   * This section is to be made sticky w.r.t the vertical scroll of the page (Please refer to s1.1 and s1.2 images in the specification sheet)
   * Each tab is a clickable which filters the data to be shown in the third section of the screen
-* The third section of the the screen is a list of challenge cards.
+* The fourth section of the the screen is a list of challenge cards.
   * Each of these challenge cards display:
     * match info and teams info
     * prize amount to be won (bottom-left) and
-    * a timer(bottom-right) which counts down to the time left for the match to go live
+    * a timer(bottom-right) which counts down to the time left for the match to start
   * The information regarding the team names and their flags can be found against the 'match_parties' key inside the challenges array of the API response
   * The data displayed in this section depends on the sports tab selected (e.g, show only football challenges when 'Football' tab is clicked, show all challenges when 'ALL' is clicked)
 
