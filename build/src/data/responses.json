@@ -3,7 +3,7 @@
         {
             "img_url": "https://cdn-images.spcafe.in/img/es3/articles/Banners_App/DIWALI_BANNER.jpg",
             "redirect": true,
-            "route": "/contest"
+            "route": null
         }, {
             "img_url": "https://cdn-images.spcafe.in/img/es3/articles/Twitter1.jpg",
             "redirect": true,
